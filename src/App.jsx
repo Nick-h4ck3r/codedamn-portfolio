@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 function App() {
@@ -12,10 +13,17 @@ function App() {
       </section>
 
       <section
-        id="about"
+        id="skills"
         className="snap-center"
       >
-        <Skills /> {/* import skills component here */}
+        <Skills />
+      </section>
+
+      <section
+        id="projects"
+        className="snap-center"
+      >
+        <Projects /> {/* import projects component here */}
       </section>
     </div>
   );
