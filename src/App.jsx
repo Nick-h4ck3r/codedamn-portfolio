@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
@@ -23,7 +24,14 @@ function App() {
         id="projects"
         className="snap-center"
       >
-        <Projects /> {/* import projects component here */}
+        <Projects />
+      </section>
+
+      <section
+        id="contact"
+        className="snap-center"
+      >
+        <Contact /> {/* imported contact component here */}
       </section>
     </div>
   );
