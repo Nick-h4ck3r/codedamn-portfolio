@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -7,7 +8,14 @@ function App() {
         id="about"
         className="snap-center"
       >
-        <About /> {/* imported the about component here */}
+        <About />
+      </section>
+
+      <section
+        id="about"
+        className="snap-center"
+      >
+        <Skills /> {/* import skills component here */}
       </section>
     </div>
   );
